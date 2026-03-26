@@ -12,7 +12,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from pymongo import MongoClient
 from bson import ObjectId
-from huggingface_hub import hf_hub_download
 
 app = FastAPI(title="PhytoSphere Pro AI Engine (Cloud Edition)")
 
